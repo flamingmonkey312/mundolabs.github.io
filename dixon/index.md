@@ -16,7 +16,20 @@ python get-pip.py
 ```
 pip install fpdf2
 ```
+## Setting up the file
 
+```python
+from fpdf import FPDF
+
+document = FPDF('P', 'mm', 'A4')
+document.set_auto_page_break(auto=1, margin = 25)
+document.add_page()
+```
+[Insert your elements here]
+
+```python
+document.output("certificate.pdf")
+```
 ## Generating the elements
 
 ```python
