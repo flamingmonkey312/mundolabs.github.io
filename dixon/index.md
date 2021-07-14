@@ -1,5 +1,23 @@
 # Dixon Project - pdfGen Cheatsheet
 
+## Set-up
+
+### Installing `pip`
+```
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+```
+
+```
+python get-pip.py
+```
+
+### Installing FPDF
+
+```
+pip install fpdf2
+```
+
+## Generating the elements
 
 ```python
 # Regular p
@@ -18,5 +36,10 @@ document.ln()
 
 # Tab
 '          '
+```
+## Outputting the PDF
+
+```
+python gen.py
 ```
 
