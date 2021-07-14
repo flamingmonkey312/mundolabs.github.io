@@ -2,7 +2,7 @@
 
 ## Set-up
 
-### Installing `pip`
+### Installing the Python Package Manager
 ```
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 ```
