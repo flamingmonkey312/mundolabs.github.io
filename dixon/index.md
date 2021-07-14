@@ -1,7 +1,7 @@
 # Dixon Project - pdfGen Cheatsheet
 
 
-```plaintext
+```python
 # Regular p
 document.multi_cell(0, 5, f'Text {var}')
 
