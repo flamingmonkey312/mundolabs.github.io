@@ -1,0 +1,53 @@
+html, body {
+    background-color: #000000;
+    margin: 0px;
+    padding: 0px;
+    color: #FFFFFF;
+    font-family: MundoSans, Helvetica, sans-serif;
+    font-weight: 400;
+
+    top: 0;
+}
+#homepageHeader {
+    background-color: #000000;
+    background-image: url("../images/homepageHeaderBg.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+    
+    width: 100%;
+    height: 2000px;
+
+    margin: 0px;
+    padding: 30px;
+} 
+
+#globalNav {
+    background-color: transparent;
+    overflow: hidden;
+    width: 100%;
+    padding: 20px;
+    margin: 0px;
+
+}
+
+#homepageHeadline {
+    margin: 500px;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 900;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+#homepageHeadline span {
+    color: transparent;
+    -webkit-text-stroke: 2px white;
+
+}
+
+#homepageHeader p, img {
+    text-align: center;
+    height: 75px;
+    margin: 100px;
+}
